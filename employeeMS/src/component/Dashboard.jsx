@@ -29,7 +29,7 @@ const Dashboard = () => {
               <li className="w-100">
                 <Link
                   className="nav-link px-0 align-middle text-white"
-                  to="/dashboard"
+                  to="/dashboard/employee"
                 >
                   <i className="fs-4 bi-people ms-2"></i>
                   <span className="ms-2 d-none d-sm-inline">
@@ -39,7 +39,7 @@ const Dashboard = () => {
               </li>
               <li className="w-100">
                 <Link
-                  to="/dashboard"
+                  to="/dashboard/category"
                   className="nav-link px-0 align-middle text-white"
                 >
                   <i className="fs-4 bi-columns ms-2"></i>
@@ -48,7 +48,7 @@ const Dashboard = () => {
               </li>
               <li className="w-100">
                 <Link
-                  to="/dashboard"
+                  to="/dashboard/profile"
                   className="nav-link px-0 align-middle text-white"
                 >
                   <i className="fs-4 bi-person ms-2"></i>
@@ -69,7 +69,7 @@ const Dashboard = () => {
         </div>
         <div className="col p-0 m-0">
           <div className="p-2 d-flex justify-content-center shadow">
-            <h4>Emoployee Management System</h4>
+            <h4>Employee Management System</h4>
           </div>
           <Outlet />
         </div>
